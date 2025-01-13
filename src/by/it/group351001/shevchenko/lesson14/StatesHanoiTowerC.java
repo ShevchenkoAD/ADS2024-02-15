@@ -21,8 +21,6 @@ public class StatesHanoiTowerC {
             steps_heights[i] = -1;
         }
 
-        String
-
         DSU dsu = new DSU(max_size); // Создаём структуру данных "Система непересекающихся множеств" (DSU)
         int[] heights = new int[3]; // Высоты трёх стержней
 
